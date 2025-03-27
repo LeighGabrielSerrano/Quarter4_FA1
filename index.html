@@ -15,7 +15,7 @@
     </ul>
     
     <h3>Answer the form below to support our advocacy!</h3>
-
+  <div>
     <form id="signupForm">
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName" required>
@@ -25,11 +25,11 @@
 
         <label>Sex:</label>
         <label for="male">Male</label>
-        <li><input type="radio" id="male" name="sex" value="male" required></li>
+        <input type="radio" id="male" name="sex" value="male" required>
         <label for="female">Female</label>
-        <li><input type="radio" id="female" name="sex" value="female" required></li>
+        <input type="radio" id="female" name="sex" value="female" required>
         <label for="notSay">Prefer not to say</label>
-        <li><input type="radio" id="notSay" name="sex" value="notSay" required></li>
+        <input type="radio" id="notSay" name="sex" value="notSay" required>
 
         <label for="email">Email Address:</label>
         <input type="email" id="email" name="email" required>
@@ -40,10 +40,10 @@
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
     </form>
-
+</div>
     <script>
-        document.getElementById('signupForm').onsubmit = function() {
-            if (!this.checkValidity()) {
+        document.getElementById('signUp').onsubmit = function() {
+            if (!this.valid()) {
                 alert("Please fill out this field.");
                 return false;
             }
