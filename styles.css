@@ -1,0 +1,35 @@
+body {
+margin: 20px;2c3e50
+background-color: #FFDDAB;
+font-family: Arial, sans-serif;
+}
+h1 {
+color: #945034;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+color: #945034;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form {
+margin-top: 20px;
+}
+label {
+display: block;
+margin: 10px 0 5px;
+
+}
+input[type="text"], input[type="email"] {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+color: #945034;
+}
+input[type="radio"] {
+margin-right: 5px;
+color: #945034;
+}
+button {
+padding: 10px 15px;
+margin-right: 10px;
+}
